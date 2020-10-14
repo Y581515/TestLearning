@@ -12,15 +12,16 @@ public class FileReader300 {
 		
 		File file=new File("/Users/yfess/Desktop/captmidn.txt"); 
 		Scanner scan = new Scanner(file);
+		
 	
 		String fileContent="";
 		while(scan.hasNextLine()) {
 			fileContent=fileContent.concat(scan.nextLine()+"\n");
 			
-		}
+		}scan.close();
 		
 		FileWriter writer = new FileWriter("/Users/yfess/Desktop/captmidn2.txt");
-		writer.write(fileContent);
+		writer.write("Ninja "+fileContent);
 		writer.close();
 	}
 
