@@ -20,7 +20,7 @@ public class FileReader300 {
 			
 		}scan.close();
 		
-		FileWriter writer = new FileWriter("/Users/yfess/Desktop/captmidn2.txt");
+		FileWriter writer = new FileWriter("/Users/yfess/Desktop/captmidn2.txt",false);
 		writer.write("Ninja "+fileContent);
 		writer.close();
 	}
