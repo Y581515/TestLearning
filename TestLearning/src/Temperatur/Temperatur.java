@@ -4,16 +4,17 @@ public class Temperatur {
 
 	
 		
-		public static double celsius2Fahrenheit(double c){
+		public static double celsius2Fahrenheit(double celsius){
 			
-			return (c*9/5)+32;
+			return (celsius*9/5)+32;
 		}
 		
-		public static double fahrenheil2Celsius(double f){
+		public static double fahrenheil2Celsius(double Fahrenheit){
 			
-			return (f-32)*5/9;
+			return (Fahrenheit-32)*5/9;
 		}
 
 }
+
 
 

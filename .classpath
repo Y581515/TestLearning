@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="TestLearning/src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-13">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/yfess/Desktop/dat100/dat100public-master/dat100public-master/easygraphics/lib/easygraphics.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yfess/Downloads/dat100public-master (1)/dat100public-master/easygraphics/lib/easygraphics.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

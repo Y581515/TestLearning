@@ -4,7 +4,7 @@ public class SkrivTegn_side133 {
 
 	public static void main(String[] args) {
 		
-		skrivTegn("pussy",3);
+		skrivTegn("k",3);
 	}
 
 		

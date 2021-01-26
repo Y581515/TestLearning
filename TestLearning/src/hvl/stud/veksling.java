@@ -3,7 +3,7 @@ package hvl.stud;
 public class veksling {
 	public static void main(String[] args) {
 		int pris=100;
-		int betalt=99;
+		int betalt=545;
 		
 		if(betalt < pris) {
 			System.out.println("Kunden betalt for lite!");

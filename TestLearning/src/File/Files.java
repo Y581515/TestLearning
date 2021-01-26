@@ -19,7 +19,7 @@ public class Files {
 
 			skriver = new PrintWriter(fil);
 
-			String[] navnTab = { "Jo", "Jan", "June", "Jonny" };
+			String[] navnTab = { "Jo", "Jan", "June", "Jooonny" };
 
 			for (int i = 0; i < navnTab.length; i++) {
 				skriver.println(navnTab[i]);
@@ -47,9 +47,9 @@ public class Files {
 
 			// legge til stringer
 			writer = new FileWriter(fil, true);
-			
 			writer.write("Anders" + " Pertersen\n");
-			writer.write("Yosafeeeeeeeeeeeeeeeeeeeeee\n");
+			writer.write("Yosae\n");
+
 			writer.write("Larsen\n");
 			writer.write("Cat\n");
 			writer.write("Hund\n");

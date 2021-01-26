@@ -10,7 +10,7 @@ public class testClass {
 	alder1=5;
 	alder2=4;
 	
-	snitt= (double)alder1+(double)alder2/2;
+	snitt= ((double)alder1+alder2)/2;
 	
     System.out.println(snitt);
 	}

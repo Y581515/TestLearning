@@ -21,7 +21,7 @@ public class FileReader300 {
 		}scan.close();
 		
 		FileWriter writer = new FileWriter("/Users/yfess/Desktop/captmidn2.txt",false);
-		writer.write("peter "+fileContent);
+		writer.write("peter \nnigga\nhere\n"+fileContent);
 		writer.close();
 	}
 
